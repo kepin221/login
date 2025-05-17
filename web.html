@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Halaman Web</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background-image: url('file-Wovzo91cHZX6MovbpLbWUx.jpg');
+      background-size: cover;
+      background-position: center;
+      font-family: sans-serif;
+      text-align: center;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      backdrop-filter: brightness(0.6);
+    }
+
+    h2 {
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+
+    .menu-container {
+      display: grid;
+      grid-template-columns: repeat(2, 200px);
+      gap: 30px;
+    }
+
+    .menu-button {
+      width: 200px;
+      height: 80px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border: 2px solid white;
+      color: white;
+      font-size: 20px;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .menu-button:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <h2>pilih opsi yang anda ingin tau</h2>
+  <div class="menu-container">
+    <button class="menu-button" onclick="location.href='halaman1.html'">tiktok</button>
+    <button class="menu-button" onclick="location.href='halaman2.html'">instagram</button>
+    <button class="menu-button" onclick="location.href='halaman3.html'">telegram</button>
+    <button class="menu-button" onclick="location.href='halaman4.html'">nick + id mlbb</button>
+  </div>
+</body>
+</html>
